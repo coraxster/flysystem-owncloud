@@ -1,0 +1,29 @@
+{
+  "name": "coraxster/flysystem-owncloud",
+  "description": "Flysystem adapter for Owncloud",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitri Kuzmin",
+      "email": "coraxster@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": ">=6.0",
+    "league/flysystem-webdav": ">=1.0.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "League\\Flysystem\\OwnCloud\\": "src"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
